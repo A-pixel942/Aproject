@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #101010;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            color: #ffcc00;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header h1 {
+            color: #ffcc00;
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(45deg, #aa1d44, #301246);
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ff3366;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        .hero button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            color: #000;
+            cursor: pointer;
+            border-radius: 50px;
+        }
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .nav-menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .nav-menu a:hover {
+            color: #ffcc00;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .video-card {
+            background-color: #333;
+            width: 300px;
+            margin: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .video-card img {
+            width: 100%;
+            height: auto;
+        }
+        .video-card .info {
+            padding: 10px;
+        }
+        .video-card .info h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+        .video-card .info p {
+            margin: 0;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Videohub</h1>
+        <div>
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up Free</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Meet Your TV Concierge.</h1>
+        <p>Need something to watch? We're on it. Find the best free streaming services, so there's always more to discover.</p>
+        <button>Start Streaming</button>
+        <div class="nav-menu">
+            <a href="#">Movies & Shows</a>
+            <a href="#">Live TV</a>
+            <a href="#">Discover</a>
+            <a href="#">Your Media</a>
+            <a href="#">Your Music</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="video-card">
+            <img src="https://www.dacast.com/wp-content/uploads/2019/03/Live-Streaming-Video-Equipment-1024x683.jpg" alt="Live Streaming Equipment">
+            <div class="info">
+                <h3>The Woman King</h3>
+                <p>Shared by: Jason Argon | 2h ago</p>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <img src="https://img.freepik.com/premium-photo/live-stream-starting-text-with-neon-flickering-effect-creative-decor-live-stream-background_1020495-89253.jpg" alt="Live Stream Starting Text">
+            <div class="info">
+                <h3>John Wick</h3>
+                <p>Shared by: Keanu Reeves | 3h ago</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
